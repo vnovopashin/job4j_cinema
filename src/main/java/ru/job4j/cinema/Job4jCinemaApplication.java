@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Job4jCinemaApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(Job4jCinemaApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(Job4jCinemaApplication.class, args);
+        System.out.println("Go to http://localhost:8081/index");
+    }
 
 }
